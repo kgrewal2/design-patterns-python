@@ -1,19 +1,22 @@
-# PRODUCT ONE
 class Dog:
+    """ PRODUCT ONE """
     def speak(self):
         print("Woof")
 
-# PRODUCT TWO
+
 class Cat:
+    """ PRODUCT TWO """
     def speak(self):
         print("Meow")
 
-# FACTORY
+
 class Factory:
-    def get_pet(self,pet_type="dog"):
-        myDict = dict(dog=Dog(),cat=Cat())
+    """FACTORY"""
+    def get_pet(self, pet_type="dog"):
+        myDict = dict(dog=Dog(), cat=Cat())
         return myDict.get(pet_type)
 
-factory=Factory()
-cat=factory.get_pet("cat")
+
+factory = Factory()
+cat = factory.get_pet("cat")
 cat.speak()

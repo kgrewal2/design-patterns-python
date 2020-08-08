@@ -1,5 +1,5 @@
 class SingletonGovt:
-    __instance__=None
+    __instance__ = None
     value = ""
 
     def __init__(self):
@@ -17,6 +17,7 @@ class SingletonGovt:
 
     def __str__(self):
         return self.value
+
 
 government = SingletonGovt()
 government.value = "Karandeep"
