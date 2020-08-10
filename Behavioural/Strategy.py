@@ -1,5 +1,7 @@
 import types
 
+# Let you use different strategies interchangeably independent of the client using them.
+
 
 class StrategyExample:
     def __init__(self, func=None):

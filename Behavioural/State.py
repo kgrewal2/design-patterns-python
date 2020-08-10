@@ -1,3 +1,6 @@
+# Change the object's behaviour when its state changes.
+
+
 class ATMState():
     name = "state"
     allowed = []

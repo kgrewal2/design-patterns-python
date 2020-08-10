@@ -1,5 +1,7 @@
 import sys
 
+# Defines a simpler communication between classes. Promotes loose coupling.
+
 
 class Colleague:
     def __init__(self, mediator, id):

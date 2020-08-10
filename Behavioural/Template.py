@@ -1,6 +1,8 @@
 import sys
 from abc import ABC, abstractmethod
 
+# Store the exact steps of an algorithm to a subclass. Lets the subclasses redefine certain steps of the algorithm without changing the structure of the algorithm.
+
 
 class AbstractClass(ABC):
     def template_method(self):

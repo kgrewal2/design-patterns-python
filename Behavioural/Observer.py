@@ -1,3 +1,6 @@
+# A way of notifying a number of observer classes depending on the state of observed class is changed.
+
+
 class Subject:
     """What is observed"""
     def __init__(self):

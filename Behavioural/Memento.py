@@ -1,5 +1,7 @@
 import pickle
 
+# Captures and restores the internal state of an object.
+
 
 class Originator:
     def __init__(self):

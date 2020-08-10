@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+# Specifies how sentences are evaluated in a language.
+
 
 class Expression():
     @abstractmethod

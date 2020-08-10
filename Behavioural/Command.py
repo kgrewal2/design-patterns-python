@@ -1,3 +1,5 @@
+Used to store all the information required for executing an action, including the methods to call, method arguments, and the object that implements the method.
+
 class Command:
     def execute(self):
         pass

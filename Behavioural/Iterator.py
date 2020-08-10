@@ -1,5 +1,7 @@
 import time
 
+# Sequentially access the elements of a collection.
+
 
 def fib():
     a, b = 0, 1

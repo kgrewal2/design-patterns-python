@@ -1,3 +1,6 @@
+# Used when we want to process an array of requests through a chain of handlers. Respective handler processes the request depending on the value, and send the request to the successor handler if not handled at that handler.
+
+
 class Handler:
     def __init__(self, successor):
         self.successor = successor
