@@ -1,3 +1,6 @@
+# Rather than building a concreate object, we build a family of related or dependent object
+
+
 class Cat:
     """PRODUCT A1"""
     def speak(self):

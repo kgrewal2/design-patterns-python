@@ -1,3 +1,6 @@
+# A class used to offer a single instance. It ensures that only single instance exists and it can be accessed globally
+
+
 class SingletonGovt:
     __instance__ = None
     value = ""

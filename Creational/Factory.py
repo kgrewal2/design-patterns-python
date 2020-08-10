@@ -1,3 +1,6 @@
+# Used when we want a common interface to create different objects
+
+
 class Dog:
     """ PRODUCT ONE """
     def speak(self):

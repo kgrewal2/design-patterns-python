@@ -1,5 +1,7 @@
 import copy
 
+# Create new instance of object using cloning method. Used when creating the object is resource intensive or time-consuming
+
 
 class Car:
     def __init__(self):

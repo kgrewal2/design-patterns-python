@@ -1,3 +1,6 @@
+# Separates the construction of a complex object from its representation so that different representations can be created from same construction process
+
+
 class Car():
     def __init__(self):
         self.model = None
