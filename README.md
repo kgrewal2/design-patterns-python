@@ -25,7 +25,8 @@
   - Decorator
   - Facade
   - Proxy
-  
+
+---
 
 #### Credits:
 - [Python: Design Patterns](https://www.linkedin.com/learning/python-design-patterns)
