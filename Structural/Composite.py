@@ -1,3 +1,6 @@
+# Used when we have a tree like structure with parent child relationship.
+
+
 class Component(object):
     levelSep = "  "
 

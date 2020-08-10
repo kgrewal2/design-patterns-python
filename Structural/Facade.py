@@ -1,3 +1,6 @@
+# Offers a single class that represents a complete system
+
+
 class SubSystemA:
     def method1(self):
         print("SubSystemA > Method1")

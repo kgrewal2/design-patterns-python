@@ -1,3 +1,6 @@
+# Converts the interface of a class to another interface that the clients expect.
+
+
 class Korean:
     def __init__(self):
         self.name = "Korean"

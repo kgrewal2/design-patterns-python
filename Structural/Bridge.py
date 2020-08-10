@@ -1,3 +1,6 @@
+# Separates the implementation from its implementation-independent part
+
+
 class DrawingAPIOne(object):
     def draw_circle(self, x, y, radius):
         print(x, y, radius, "API1")

@@ -1,3 +1,6 @@
+# Lets us add functionality dynamically
+
+
 # TYPE 1
 def smart_divide(func):
     def inner(a, b):

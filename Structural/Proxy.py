@@ -1,4 +1,4 @@
-"""REFERENCE: GEEKSFORGEEKS"""
+# Lets you postpone the object creation unless its actually required
 
 
 class College:
